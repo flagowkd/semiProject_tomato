@@ -13,7 +13,7 @@ String s_idx_s=request.getParameter("s_idx");
 if(s_idx_s==null||s_idx_s.equals("")){
 	%>
 	<script>
-	window.alert('존재하지 않는 게시물입니다.');
+	window.alert('존재하지 않는 게시물입니다. ');
 	location.href='buyList.jsp?col=s_idx&range=desc';
 	</script>
 	<%
